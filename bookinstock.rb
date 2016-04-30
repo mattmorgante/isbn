@@ -15,8 +15,3 @@ class BookInStock
     Integer(price*100 + 0.5)
   end
 end
-
-book = BookInStock.new("isbn1", 33.84)
-puts "ISBN = #{book.isbn}"
-puts "Price = #{book.price}"
-puts "Price in cents = #{book.price_in_cents}"
